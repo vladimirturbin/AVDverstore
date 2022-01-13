@@ -42,7 +42,7 @@
         "sha2": "66558A74DECCA534732F562CB1771EFA17D8D62510E0D56303BD264382BEAA9330427D4FACFF4D4D4BF1B77F8A7BAA827EEB15B9CB38BAFB960EDE5FE33920AB",
         "platform": "x86",
         "links_type": "insider",
-        "date": "2022-01-13, 01:08:47"
+        "date": "2022-01-13, 05:50:22"
     },
     "5": {
         "version": "1.2.2851.0",
@@ -51,6 +51,6 @@
         "sha2": "F5960E1D723B7C382D683787E1A068CD0EAF3DCFE30C5D25CBD7264F7AB22D2672CE909DE740F3E34002AB7EDDA17164F242C8F7696188DC8D3409EA24A91B57",
         "platform": "x64",
         "links_type": "insider",
-        "date": "2022-01-13, 01:08:47"
+        "date": "2022-01-13, 06:05:02"
     }
 }
