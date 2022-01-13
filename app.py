@@ -4,6 +4,7 @@ import urllib.request
 import urllib.response
 from datetime import datetime
 from waitress import serve
+import socket
 
 app = Flask(__name__)
 
@@ -19,6 +20,20 @@ AVD_links = {
         'https://go.microsoft.com/fwlink/?linkid=2098963'
     ]
 }
+
+
+def get_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.settimeout(0)
+    try:
+        # doesn't even have to be reachable
+        s.connect(('10.255.255.255', 1))
+        IP = s.getsockname()[0]
+    except Exception:
+        IP = '127.0.0.1'
+    finally:
+        s.close()
+    return IP
 
 
 def save_new_version():
@@ -90,7 +105,7 @@ def xml_render():
 def reg_render():
     with open(data_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
-    template = render_template('update.reg', data=data, ver=request.args.get('ver'), addr=request.remote_addr)
+    template = render_template('update.reg', data=data, ver=request.args.get('ver'), addr=get_ip())
     response = make_response(template)
     response.headers['Content-Type'] = 'text/plain'
     return response
