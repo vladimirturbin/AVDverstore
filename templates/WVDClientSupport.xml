@@ -10,6 +10,7 @@
         />
     <Advanced>
         <RASClient
+            Build="0"
             WVDClientVer="{{ data[ver]['version'][:-2]}}"
         {% if data[ver]['platform'] == 'x64' %}
             Installer_64="{{ data[ver]['url'] }}"
