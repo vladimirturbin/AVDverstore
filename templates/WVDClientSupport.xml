@@ -1,0 +1,22 @@
+<RootXML>
+    <Standard
+        WVDClientVer="{{ data[ver]['version'][:-2]}}"
+        {% if data[ver]['platform'] == 'x64' %}
+            Installer_64="{{ data[ver]['url'] }}"
+        {% endif %}
+        {% if data[ver]['platform'] == 'x86' %}
+            Installer_32="{{ data[ver]['url'] }}"
+        {% endif %}
+        />
+    <Advanced>
+        <RASClient
+            WVDClientVer="{{ data[ver]['version'][:-2]}}"
+        {% if data[ver]['platform'] == 'x64' %}
+            Installer_64="{{ data[ver]['url'] }}"
+        {% endif %}
+        {% if data[ver]['platform'] == 'x86' %}
+            Installer_32="{{ data[ver]['url'] }}"
+        {% endif %}
+        />
+    </Advanced>
+</RootXML>

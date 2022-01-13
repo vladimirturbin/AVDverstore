@@ -1,0 +1,56 @@
+{
+    "0": {
+        "version": "1.2.2691.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWRBAy",
+        "md5": "1E44B4802E39F92EC642D90657D30575",
+        "sha2": "225BB851B2133D1E49FE6289937B6D0B5029FCBC4613A983EC04D92EC973522B788BC5DB8E52382E1F1A913A78A7B30E39A0B93CE6C1714D5B394680AB122F43",
+        "platform": "x86",
+        "links_type": "insider",
+        "date": "2022-01-12, 21:40:02"
+    },
+    "1": {
+        "version": "1.2.2691.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWRLOX",
+        "md5": "B68813486E642F5595F52E16F8F77D67",
+        "sha2": "0BD311500C6FAF7FC74433C2D4B12CDDEF9DE66519FE12E8ACAD936795F7F2D63433127AC5658D3F3BB6BE0A31CC668F7642E3BC4B3ECF84593D479276F6FD0A",
+        "platform": "x64",
+        "links_type": "insider",
+        "date": "2022-01-12, 21:40:02"
+    },
+    "2": {
+        "version": "1.2.2691.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWRBAy",
+        "md5": "1E44B4802E39F92EC642D90657D30575",
+        "sha2": "225BB851B2133D1E49FE6289937B6D0B5029FCBC4613A983EC04D92EC973522B788BC5DB8E52382E1F1A913A78A7B30E39A0B93CE6C1714D5B394680AB122F43",
+        "platform": "x86",
+        "links_type": "release",
+        "date": "2022-01-12, 21:40:02"
+    },
+    "3": {
+        "version": "1.2.2691.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWRLOX",
+        "md5": "B68813486E642F5595F52E16F8F77D67",
+        "sha2": "0BD311500C6FAF7FC74433C2D4B12CDDEF9DE66519FE12E8ACAD936795F7F2D63433127AC5658D3F3BB6BE0A31CC668F7642E3BC4B3ECF84593D479276F6FD0A",
+        "platform": "x64",
+        "links_type": "release",
+        "date": "2022-01-12, 21:40:02"
+    },
+    "4": {
+        "version": "1.2.2851.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWRIT5",
+        "md5": "7A6D7852EEB44E3AD494843115A89EB0",
+        "sha2": "66558A74DECCA534732F562CB1771EFA17D8D62510E0D56303BD264382BEAA9330427D4FACFF4D4D4BF1B77F8A7BAA827EEB15B9CB38BAFB960EDE5FE33920AB",
+        "platform": "x86",
+        "links_type": "insider",
+        "date": "2022-01-13, 01:08:47"
+    },
+    "5": {
+        "version": "1.2.2851.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWRIT4",
+        "md5": "8432C6E8F79B0FA01CAD7886FEFBCF7F",
+        "sha2": "F5960E1D723B7C382D683787E1A068CD0EAF3DCFE30C5D25CBD7264F7AB22D2672CE909DE740F3E34002AB7EDDA17164F242C8F7696188DC8D3409EA24A91B57",
+        "platform": "x64",
+        "links_type": "insider",
+        "date": "2022-01-13, 01:08:47"
+    }
+}
