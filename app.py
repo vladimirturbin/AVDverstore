@@ -3,6 +3,7 @@ import json
 import urllib.request
 import urllib.response
 from datetime import datetime
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -95,5 +96,15 @@ def reg_render():
     return response
 
 
+@app.route('/refresh')
+def save_from_web():
+    try:
+        save_new_version()
+    except:
+        return 'Something gone wrong'
+    else:
+        return 'Refreshed successfully'
+
+
 if __name__ == '__main__':
-    app.run()
+    serve(app, host="0.0.0.0", port=80)
