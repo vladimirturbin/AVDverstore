@@ -8,7 +8,7 @@ import socket
 
 app = Flask(__name__)
 
-data_file = '/home/vturbin/AVDverstore/data.json'
+data_file = 'data.json'
 AVD_links = {
     'insider': [
         'https://go.microsoft.com/fwlink/?linkid=2099432',
