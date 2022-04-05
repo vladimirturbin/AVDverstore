@@ -7,6 +7,9 @@
         {% if data[ver]['platform'] == 'x86' %}
             Installer_32="{{ data[ver]['url'] }}"
         {% endif %}
+        {% if data[ver]['platform'] == 'ARM64' %}
+            Installer_ARM64="{{ data[ver]['url'] }}"
+        {% endif %}
         />
     <Advanced>
         <RASClient
@@ -17,6 +20,9 @@
         {% endif %}
         {% if data[ver]['platform'] == 'x86' %}
             Installer_32="{{ data[ver]['url'] }}"
+        {% endif %}
+        {% if data[ver]['platform'] == 'ARM64' %}
+            Installer_ARM64="{{ data[ver]['url'] }}"
         {% endif %}
         />
     </Advanced>
