@@ -250,5 +250,23 @@
         "platform": "x64",
         "links_type": "release",
         "date": "2022-04-05, 06:00:03"
+    },
+    "28": {
+        "version": "1.2.3004.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4SWGO",
+        "md5": "59FB5C79586063806A27D94005C9A955",
+        "sha2": "E00874011E676231CCA5C8703C0B3D407963F75732E8AA67E893937A3C4CC2919597A6BC179277A4D2E08C827560FEB831FA34F8051F0C55A1D3C7C5B0C0EF0D",
+        "platform": "ARM64",
+        "links_type": "insider",
+        "date": "2022-04-05, 23:48:10"
+    },
+    "29": {
+        "version": "1.2.3004.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4SWGO",
+        "md5": "59FB5C79586063806A27D94005C9A955",
+        "sha2": "E00874011E676231CCA5C8703C0B3D407963F75732E8AA67E893937A3C4CC2919597A6BC179277A4D2E08C827560FEB831FA34F8051F0C55A1D3C7C5B0C0EF0D",
+        "platform": "ARM64",
+        "links_type": "release",
+        "date": "2022-04-05, 23:48:42"
     }
 }

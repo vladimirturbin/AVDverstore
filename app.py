@@ -12,12 +12,14 @@ data_file = 'data.json'
 AVD_links = {
     'insider': [
         'https://go.microsoft.com/fwlink/?linkid=2099432',
-        'https://go.microsoft.com/fwlink/?linkid=2099433'
+        'https://go.microsoft.com/fwlink/?linkid=2099433',
+        'https://go.microsoft.com/fwlink/?linkid=2098962'
     ],
 
     'release': [
         'https://go.microsoft.com/fwlink/?linkid=2099065',
-        'https://go.microsoft.com/fwlink/?linkid=2098963'
+        'https://go.microsoft.com/fwlink/?linkid=2098963',
+        'https://go.microsoft.com/fwlink/?linkid=2099066'
     ]
 }
 
