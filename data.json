@@ -268,5 +268,32 @@
         "platform": "ARM64",
         "links_type": "release",
         "date": "2022-04-05, 23:48:42"
+    },
+    "30": {
+        "version": "1.2.3126.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VjJX",
+        "md5": "DF9D117DB98496E8E93EC0D4ACA3DB05",
+        "sha2": "B9B4FCB779974332935B6EDD967F6C34CE8566A070B50C57CF25037C7863BCADA3241ACB825B5DDCA501237FAF1E6765E270AFE0FF8D5C0392D6FB2AD9470439",
+        "platform": "x86",
+        "links_type": "insider",
+        "date": "2022-04-20, 06:00:06"
+    },
+    "31": {
+        "version": "1.2.3126.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VgMJ",
+        "md5": "27F4B33D99D77727621B4D3DAF67CDDC",
+        "sha2": "EF57964E077FD70B3F3FD87D4A0B03BE82306B96C7BB1289CF99925B0AFD9A7E10ACCC321BF16505FDB4F2992AE6E0397A59FF273273FDE4974076525E0932C4",
+        "platform": "x64",
+        "links_type": "insider",
+        "date": "2022-04-20, 06:00:06"
+    },
+    "32": {
+        "version": "1.2.3126.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VozW",
+        "md5": "C3F74031BD3CE5EFF4AEBFCF53470B29",
+        "sha2": "4B5FE7094142F131C85843A92AD2234F8BEBE27D48C3A23692C4D242E0E3599CB7C6AA3439C116352A27DC3CB9E4F457024A37DAC88CD9BCE30819AF2481835E",
+        "platform": "ARM64",
+        "links_type": "insider",
+        "date": "2022-04-20, 06:00:06"
     }
 }
