@@ -16,7 +16,7 @@
     {% for data_rec in data %}
         <tr class="table__row">
         <td class="table__cell">  {{ data_rec}}  </td>
-        <td class="table__cell">  {{ data[data_rec]['date'] }}  </td>
+        <td class="table__cell">  {{ data[data_rec]['date'][:-3] }}  </td>
         <td class="table__cell">  <a href="/per_version_xml?ver={{ data_rec }}">XML</a> </td>
         <td class="table__cell">  <a href="/per_version_reg?ver={{ data_rec }}" download="AVDupdate.reg">reg</a> </td>
         </tr>
