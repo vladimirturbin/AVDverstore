@@ -85,11 +85,31 @@ def get_current_urls(urls_load_list):
     return distro_data
 
 
-@app.route('/')
+@app.route('/per_url')
 def main_table():
     with open(data_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
     return render_template('main_table.html', data=data)
+
+
+@app.route('/')
+def main_table_2():
+    with open(data_file, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    data_per_version = {}
+    for i in data:
+        element = data[i]
+        com_version = element['version'] + ' ' + element['links_type']
+        if com_version not in data_per_version:
+            data_per_version[com_version] = {}
+            data_per_version[com_version][element['platform']] = element['url']
+            data_per_version[com_version]['date'] = element['date']
+
+        else:
+            data_per_version[com_version][element['platform']] = element['url']
+            data_per_version[com_version]['date'] = element['date']
+
+    return render_template('per_version_table.html', data=data)
 
 
 @app.route('/xml')
