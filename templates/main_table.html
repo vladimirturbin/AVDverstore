@@ -13,8 +13,6 @@
         <th class="table__cell">Platform</th>
         <th class="table__cell">Channel</th>
         <th class="table__cell">Link</th>
-        <th class="table__cell">XML</th>
-        <th class="table__cell">reg</th>
     </tr>
     {% for data_rec in data %}
         <tr class="table__row">
@@ -23,8 +21,6 @@
         <td class="table__cell">  {{ data[data_rec]['platform'] }}  </td>
         <td class="table__cell">  {{ data[data_rec]['links_type'] }}  </td>
         <td class="table__cell">  <a href="{{ data[data_rec]['url'] }}">Download</a>  </td>
-        <td class="table__cell">  <a href="/xml?ver={{ data_rec }}">XML</a> </td>
-        <td class="table__cell">  <a href="/reg?ver={{ data_rec }}" download="AVDupdate.reg">reg</a> </td>
         </tr>
     {% endfor %}
 </table>
