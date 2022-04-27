@@ -120,7 +120,8 @@ def main_table_2():
 def xml_render():
     with open(data_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
-    template = render_template('WVDClientSupport.xml', data=data, ver=request.args.get('ver'))
+
+    template = render_template('WVDClientSupport.xml', data=make_data_per_version(data), ver=request.args.get('ver'))
     response = make_response(template)
     response.headers['Content-Type'] = 'application/xml'
 
