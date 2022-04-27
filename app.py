@@ -109,7 +109,7 @@ def main_table_2():
             data_per_version[com_version][element['platform']] = element['url']
             data_per_version[com_version]['date'] = element['date']
 
-    return render_template('per_version_table.html', data=data)
+    return render_template('per_version_table.html', data=data_per_version)
 
 
 @app.route('/xml')
