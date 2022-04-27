@@ -295,5 +295,32 @@
         "platform": "ARM64",
         "links_type": "insider",
         "date": "2022-04-20, 06:00:06"
+    },
+    "33": {
+        "version": "1.2.3128.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4V9Rq",
+        "md5": "892EEA9BC6881F9C4320A86A784399EE",
+        "sha2": "9968ACBB750059CAFDEC620213D9661FD614B0C8B352000A02C30A3897EBFDE5052497F559F4401374D4902941D7F05EE557E211F05BEF5CB1D1AB917BCA3003",
+        "platform": "x86",
+        "links_type": "insider",
+        "date": "2022-04-27, 06:00:04"
+    },
+    "34": {
+        "version": "1.2.3128.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VuRI",
+        "md5": "7C8CE42C2509362951BC9A1E156E7820",
+        "sha2": "759611666B3909827226B76502E7069316DACCC4B7436972F6F13656BF80F8E25604484AFC0B3530F2F6CA6B68D77ECFF4BEAAAF992D9435B54089CA0A534C85",
+        "platform": "x64",
+        "links_type": "insider",
+        "date": "2022-04-27, 06:00:04"
+    },
+    "35": {
+        "version": "1.2.3128.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4VpnG",
+        "md5": "E9F4B23FEA26A6563A1E1F0E05802C52",
+        "sha2": "B179622E34AC62893A7CAB2FEC7C48D403184B2959FCE07BD0A48D3AE1F832BC76C7F4CA9FF7CB62B528CABF9C6F780054A5FCF74D2A3CC2A1A5AE52BE0928C6",
+        "platform": "ARM64",
+        "links_type": "insider",
+        "date": "2022-04-27, 06:00:04"
     }
 }
